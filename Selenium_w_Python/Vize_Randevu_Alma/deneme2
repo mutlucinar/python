@@ -1,0 +1,21 @@
+"""
+driver = webdriver.Chrome()
+driver.maximize_window()
+driver.implicitly_wait(5) # element vs. herhangi birşey bulunamazsa burda yazılan saniye kadar sonra hataya düşer
+
+
+options = webdriver.ChromeOptions()
+options.add_experimental_option('excludeSwitches', ['enable-logging'])
+
+options.add_argument (r'--user-data-dir=C:\Users\Mutlu\AppData\Local\Google\Chrome\User Data\Profile 1');
+options.add_argument("--profile-directory=Profile 1");
+
+# Sayfaya git.
+driver.get("https://www.google.com.tr/")
+print("Sayfa acildi.")
+
+driver.find_element(By.XPATH, '//*[@id="APjFqb"]').send_keys("italya vize randevu")
+driver.find_element(By.XPATH, '//*[@id="APjFqb"]').send_keys(Keys.ENTER)
+driver.find_element(By.XPATH, '//*[text()="Randevu İşlemleri"]').click()
+
+"""

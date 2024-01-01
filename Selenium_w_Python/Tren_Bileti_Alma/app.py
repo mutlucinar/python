@@ -22,15 +22,15 @@ email =  input("E Posta (eposta@ornek.com) : ")
 cinsiyet=input("Cinsiyet Seçimi e,k ? \n")
 """
 # Default values for testing
-name = "Mutlu"
-surname = "Çınar    "
+name = "xxx"
+surname = "xxx    "
 tarife = "tam"
 cinsiyet="e"
-dt = "12.09.1994"
-tckn = "47470214414"
-gsm = "05444444444"
+dt = "gg.aa.yyy"
+tckn = "xxxxx"
+gsm = "xxxxx"
 email =  "ornekmail@ornekmail.com"
-kart_sahibi = "Mutlu Çınar"
+kart_sahibi = "xxxx xxxx"
 kart_numarası = "1111111111111111"
 kart_son_kullanma_ay = 3
 kart_son_kullanma_yıl = 24
@@ -38,7 +38,7 @@ kart_güvenlik_kodu = 777
 
 nereden = "1609" #pendik
 nereye = "9092" # eryaman
-gidis_tarihi = "05-01-2024"
+gidis_tarihi = "05-01-2024" # tarih
 koltuk_secimi_yapilmak_isteniyormu = "h" #e yapılırsa koltuk seçiminde onay istenir
 
 
